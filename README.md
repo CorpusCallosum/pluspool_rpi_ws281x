@@ -1,3 +1,10 @@
+# +Pool Raspi Code
+
+The Raspberry Pi receives OSC strings of LED data, and lights up the LED strips. Each module has two strips attached to it. The string of data is split in half, with the first half assigned to strip1, and the second half assigned to strip 2.
+
+The installation is composed of 20x units with hostnames:
+pi@raspberrypi0, pi@raspberrypi1, pi@raspberrypi2 ... pi@raspberrypi19
+
 rpi_ws281x
 ==========
 
